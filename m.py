@@ -8,11 +8,13 @@ print(type(booleano3), booleano3)
 # Nombre
 # Carrera
 # Idea de proyecto para este curso 
-for x in range(7,1):
+
+for i in range(1,6):
     nombre= input("¿Cual es tu nombre? ")
     carrera= input("Dime la carrera que estas estudiando ")
     idea= input("¿Cual es tu idea de proyecto para el curso POO? ")
-    print("Tu nombre es: ", nombre)
-    print("Estas estudiando: ", carrera) 
-    print("Tu idea de proyecto es: ", idea)
+    print(i, ".Tu nombre es: ", nombre)
+    print(i, ".Estas estudiando: ", carrera) 
+    print(i, ".Tu idea de proyecto es: ", idea)
+    print("---------------------------------")
     
